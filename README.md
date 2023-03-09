@@ -15,8 +15,8 @@ The project has been about creating an images' classifier program to classify fl
 I -also- has built a Python image classifier application that can be run on the command line. It trains a deep learning model in an images' dataset and uses the trained model to predict the class of a new image.
 
 ### The project contains:
-###### 1) The ipynb file `Image_Classifier_nb` is the the image classifier notebook,
-###### 2) The folder `comman_line_app` contains the code files for the Python image classifier application:
+###### 1) The ipynb file `Image_Classifier_nb`: is the the image classifier notebook,
+###### 2) The folder `comman_line_app` that contains the code files for the Python image classifier application:
 
 **- `train.py` is the code of model training on a data set of images classified into (train and validation datasets)**
 - It takes a positional argument of `data_directory`,
@@ -26,6 +26,4 @@ I -also- has built a Python image classifier application that can be run on the 
 - It takes positional arguments of `image path` and `checkpoint path`,
 - Optional arguments of `--top_k` (top k most likely classes), `--category_names` (a path to a jason file containing mapping of categories to real names), `--gpu` (to implement the code in a GPU device if avialable)
 
-###### 3) `flowers` dataset
-
-###### 4) A code to make the session active
+###### 3) The Python file`workspace_utils.py`: It is contains modules that will keep the session active during running the code inside this module.
